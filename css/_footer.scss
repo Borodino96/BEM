@@ -1,0 +1,113 @@
+.footer {
+  background-color: #101C21;
+  padding-top: 100px;
+  padding-bottom: 53px;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.footer__inner-menu {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 130px;
+}
+.footer__tittle {
+  font-family: 'Arial';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #878D90;
+}
+.item-link {
+  font-family: 'Arial';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #CFD2D3;
+  margin-top: 15px;
+  list-style: none;
+}
+.unordered-list2 {
+  margin-top: 30px;
+}
+.footer__demo-button {
+  margin-top: 52px;
+  width: 218px;
+  height: 56px;
+  border: none;
+}
+.inner-menu-link {
+  font-family: 'Arial';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-top: 15px;
+  list-style: none;
+}
+.footer__email{
+  display: flex;
+  flex-direction: column;
+  margin-top: 57px;
+}
+.footer__email-form-text {
+  font-family: 'Arial';
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.footer__email-input {
+  font-family: 'Arial';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #878D90;
+  background: #FFFFFF;
+  border: 1px solid #CFD2D3;
+  border-radius: 4px;
+  padding: 17px 347px 22px 39px;
+}
+.button-subscribe {
+  font-family: 'Arial';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: #283337;
+  border-radius: 56px;
+  padding: 19px 42px;
+  border: none;
+  margin-left: 20px;
+}
+.footer__copyrights {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+.footer__copyrights-logo {
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+}
+.footer-text {
+  font-family: 'Arial';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #9FA4A6;
+}
+.footer__license {
+  margin-right: 30px;
+}
+.footer__privacy {
+  margin-right: 230px;
+}
+.footer__copyrights-text  {
+  display: flex;
+  justify-content: space-between;
+}

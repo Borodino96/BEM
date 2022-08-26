@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.nav-menu {
+  display: flex;
+  column-gap: 69px;
+  margin-left: 27%;
+}
+
+.header__link {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #40494D;
+}
+
+.search-form__button {
+  width: 58px;
+  height: 58px;
+  border: 1px solid #40494D;
+  border-radius: 28px;
+  padding: 19.5px;
+  background-color: white;
+}
+
+.search-form {
+  display: flex;
+  column-gap: 15px;
+}
+
+.demo-button {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #283337;
+  border-radius: 56px;
+  padding: 16px 25px;
+}
+
+.container {
+  max-width: 88.9%;
+  margin: auto;
+}
+
+.main-section1 {
+  background: #F3F7F4;
+}
+
+.main-section1__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 179px;
+  padding-bottom: 150px;
+}
+
+.info-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-section1__item2 {
+  background-image: url(http://127.0.0.1:5500/img/main_picture-min.png);
+  background-size: contain;
+  width: 415px;
+  height: 540px;
+  margin-right: 247px;
+  position: relative;
+}
+
+.image1 {
+  position: absolute;
+  top: 35%;
+  right: 74%;
+}
+
+.image2 {
+  position: absolute;
+  top: 75%;
+  left: 26%;
+}
+
+.image3 {
+  position: absolute;
+  top: 30%;
+  right: -30%;
+}
+
+.header1 {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  color: #283337;
+}
+
+.main-section1__item1-header {
+  margin-bottom: 44px;
+}
+
+.main-section1__item1-text {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 31px;
+  color: #40494D;
+  margin-bottom: 26px;
+}
+
+.request-demo {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #283337;
+  border-radius: 56px;
+  padding: 16px 50px;
+}
+
+.logo-block {
+  margin-top: 231px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-section2__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 74px;
+}
+
+.main-section2__item1-header {
+  margin-bottom: 28px;
+}
+
+.text-block {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #40494D;
+}
+
+.main-section2__item1-text {
+  margin-bottom: 39px;
+}
+
+.underline {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.button-about-the-product {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #283337;
+  border-radius: 56px;
+  padding: 16px 25px;
+}
+
+.main-section2__item2 {
+  padding: 80px 89px 80px 80px;
+  background-color: #F3F7F4;
+  border-radius: 6px;
+}
+
+.main-section2__item2-logo {
+  margin-bottom: 27px;
+}
+
+.main-section2__item2-header {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 34px;
+  color: #283337;
+  margin-bottom: 51px;
+}
+
+.learn-more {
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #283337;
+}
+
+.main-section2__item2-learn-more {
+  text-align: right;
+  margin-top: 38px;
+}
+
+.main-section3 {
+  background: #F3F7F4;
+  margin-top: 100px;
+  padding-top: 224px;
+  padding-bottom: 174px;
+}
+
+.main-section3__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 75px;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header2 {
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #283337;
+}
+
+.main-section3__item1-header {
+  font-size: 52px;
+  line-height: 70px;
+}
+
+.main-section3__item2-header {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.main-section3__item3-header {
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.main-section3-header {
+  font-family: "Arial";
+  font-weight: 400;
+  color: #283337;
+  margin-bottom: 19px;
+  text-align: center;
+}
+
+.results-text {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #40494D;
+}
+
+.main-section4__content {
+  display: flex;
+  margin-top: 406px;
+  padding-bottom: 150px;
+  justify-content: space-between;
+}
+
+.main-section4__item1-header {
+  text-align: left;
+  margin-bottom: 43px;
+}
+
+.main-section4__item2-logo {
+  background-image: url(http://127.0.0.1:5500/img/Kion.jpg);
+  padding: 120px 260px;
+  background-repeat: no-repeat;
+}
+
+.logo-img {
+  background: #61D7AC;
+  opacity: 0.8;
+  border-radius: 44%;
+  padding: 40px;
+  width: 120px;
+  height: 120px;
+}
+
+.text-difference {
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 1px;
+}
+
+.main-section4__item1-text2 {
+  margin-bottom: 24px;
+}
+
+.main-section4__item1-text3 {
+  margin-bottom: 12px;
+  margin-left: 139px;
+}
+
+.main-section4__item1-text4 {
+  margin-bottom: 24px;
+  margin-left: 139px;
+}
+
+.main-section5 {
+  padding-bottom: 150px;
+}
+
+.main-section4__header {
+  margin-bottom: 86px;
+}
+
+.main-section4__logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-section6 {
+  background: #F3F7F4;
+  padding-top: 144px;
+  padding-bottom: 150px;
+}
+
+.main-section6__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 48px;
+}
+
+.main-section6__text {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 36px;
+  text-align: center;
+  color: #283337;
+}
+
+.footer {
+  background-color: #101C21;
+  padding-top: 100px;
+  padding-bottom: 53px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer__inner-menu {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 130px;
+}
+
+.footer__tittle {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #878D90;
+}
+
+.item-link {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #CFD2D3;
+  margin-top: 15px;
+  list-style: none;
+}
+
+.unordered-list2 {
+  margin-top: 30px;
+}
+
+.footer__demo-button {
+  margin-top: 52px;
+  width: 218px;
+  height: 56px;
+  border: none;
+}
+
+.inner-menu-link {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-top: 15px;
+  list-style: none;
+}
+
+.footer__email {
+  display: flex;
+  flex-direction: column;
+  margin-top: 57px;
+}
+
+.footer__email-form-text {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.footer__email-input {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #878D90;
+  background: #FFFFFF;
+  border: 1px solid #CFD2D3;
+  border-radius: 4px;
+  padding: 17px 347px 22px 39px;
+}
+
+.button-subscribe {
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: #283337;
+  border-radius: 56px;
+  padding: 19px 42px;
+  border: none;
+  margin-left: 20px;
+}
+
+.footer__copyrights {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+
+.footer__copyrights-logo {
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+}
+
+.footer-text {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #9FA4A6;
+}
+
+.footer__license {
+  margin-right: 30px;
+}
+
+.footer__privacy {
+  margin-right: 230px;
+}
+
+.footer__copyrights-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=index.css.map */
