@@ -1,0 +1,26 @@
+@mixin demo-button ($ff,$fw,$fs,$lh,$ta,$c,$bck,$br,$p ){
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  text-align: $ta;
+  color: $c;
+  background: $bck;
+  border-radius: $br;
+  padding: $p;
+}
+@mixin header ($ff,$fw,$fs,$lh,$ls,$c){
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  color: $c;
+}
+@mixin text-block ($ff,$fw,$fs,$lh,$c){
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  color: $c;
+}

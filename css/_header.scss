@@ -3,40 +3,47 @@
   justify-content: space-between;
   align-items: center;
   padding: 32px 0;
-}
-.header__nav-menu {
-  display: flex;
-  column-gap: 69px;
-  margin-left: 27%;
-}
-.header__nav-menu-link {
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #40494D;
-}
-.search-form__button {
-  width: 58px;
-  height: 58px;
-  border: 1px solid #40494D;
-  border-radius: 28px;
-  padding: 19.5px;
-  background-color: white;
+  @extend %container;
+  
+  // .header__nav-menu
+
+  &__nav-menu {
+    display: flex;
+    column-gap: 69px;
+    margin-left: 27%;
+  }
+  
+  // .header__nav-menu-link
+
+  &__nav-menu-link {
+    text-decoration: none;
+    font-family: $ff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color1;
+  }
 }
 .search-form {
   display: flex;
   column-gap: 15px;
+
+  // .search-form__button
+
+  &__button {
+    width: 58px;
+    height: 58px;
+    border: 1px solid #40494D;
+    border-radius: 28px;
+    padding: 19.5px;
+    background-color: white;
+  }
 }
 .demo-button {
-  font-family: 'Arial';
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 21px;
-  text-align: center;
-  color: #FFFFFF;
-  background: #283337;
-  border-radius: 56px;
-  padding: 16px 25px;
+  @include demo-button (Arial,400, 17px,21px,center,#FFFFFF,#283337,56px,16px 25px);
 }
+
+
+
+
+
